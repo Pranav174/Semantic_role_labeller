@@ -1,0 +1,6 @@
+Urdu_Propbank_pre_release_version_0.005.zip
+.ipynb_checkpoints
+.venv
+__pycache__
+processed_data.dat
+*.pyc

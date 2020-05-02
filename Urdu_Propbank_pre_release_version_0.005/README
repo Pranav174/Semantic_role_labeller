@@ -1,0 +1,62 @@
+DATA
+----
+A pre-release version of Urdu Propbank is being released now. Urdu Propbank contains multi-layered annotations with morphological, part-of-speech, dependency annotations, the arguments of each verb predicate (simple or complex) are marked with
+their semantic roles on sentences from news domain corpus acquired from newspaper agency Siasat and other news agencies. PropBank annotation is a 2-step process. The 1st step is the creation of frame files. The next step in this process is the actual annotation of
+predicate-argument structure using the created frame files. The annotations are stored in the Shakti Standard Format (See $parent_dir/docs/ssf-guide.pdf for a detailed description of the format). 
+
+DATA FORMAT
+-----------
+
+The data is being released in SSF format. For detailed introduction to SSF, please read $parent_dir/docs/ssf-guide.pdf.
+
+DATA RELEASE
+------------
+
+The folder structure for the data is organized as follows:
+
+Urdu-Propbank ver 0.5*/
+|
+|__Simple_Predicates
+|  
+|__Complex_Predictaes
+
+
+DOCUMENTATION
+-------------
+
+The folder structure for documents is organized as follows:
+
+docs/
+|____ ssf-guide.pdf
+|____ ssf-api/       # SSF APIs in Python
+|____ UDTB-release_doc.pdf
+|____ Dependency-guidelines.pdf
+|____ multi-representational-Treebanks-Hindi-Urdu.pdf
+|____ propBankAnnotationGuidelines-Using-Jubilee.pdf
+|____ propBanking-In-Urdu.pdf
+
+
+ACKNOWLEDGEMENTS
+----------------
+
+We acknowledge the efforts of Mrs. Sameena Yasmeen, Mr. Maaz Anwar Nomani and Mr. Riyaz Ahmad Bhat for annotating, and validating the Urdu Propbank.
+
+
+PI at IIIT-H, India
+-------------------
+Prof. Dipti M. Sharma
+
+ 
+CONTACT
+-------
+
+hutb-request@lists.iiit.ac.in
+<for people who want to get the treebank; this would be the first port of call.>
+
+
+hutb-updates@lists.iiit.ac.in
+<for people who just want further update information.>
+
+
+hutb-discussion@lists.iiit.ac.in
+<people who want to ask questions about the HUTB.>
