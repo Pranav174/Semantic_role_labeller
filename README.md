@@ -37,7 +37,11 @@ python -m ipykernel install --user --name=<venv name>
 ```bash
 jupyter notebook runner.py
 ```
+## Traing
 
+Neural Nets were used for both the phases of training instead of the algorithms in the paper as better performance was obtained. Moreover as it was a multi-class classification task, SVM was not suitable.
+
+Hyperparameter tuning and feature engineering was done and the best possible combinations were finally used.
 ## Results
 
 ### Model 1 summary
@@ -72,12 +76,13 @@ Non-trainable params: 0
 
 ### Final Scores
 ```
-Accuracy: 0.829616129398346
-Precision: 0.8437967300415039
-Recall: 0.8199087977409363
-F1-score: 0.8314988017082214
-Loss: 0.5700723652665305
+Accuracy: 0.8287057876586914
+Precision: 0.8617866039276123
+Recall: 0.7869901061058044
+F1-score: 0.8220494389533997
+Loss: 0.623884641993952
 ```
+__*Confusion Matrix can be found in the notebook*__
 
 ## Contributions
 
