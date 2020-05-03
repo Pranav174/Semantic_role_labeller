@@ -16,6 +16,11 @@ News Artices manually annotated in SSF format.
 
 Python version 3.6 or above is required
 
+> Go into src folder
+```bash
+cd src
+```
+
 > Install requirements
 
 ```bash
